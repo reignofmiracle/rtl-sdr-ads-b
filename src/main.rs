@@ -9,6 +9,6 @@ fn main() {
     println!("Hello, world!");
 
     unsafe {
-        println!("", rtlsdr_get_device_count());
+        println!("{}", rtlsdr_get_device_count());
     }
 }
